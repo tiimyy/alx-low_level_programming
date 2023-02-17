@@ -2,12 +2,13 @@
 /**
 *main - Entry point
 * declared a variable using char
-*Return : 0
+*Return :0
 */
 int main(void)
 {
 	char ch = 'a';
-	while( ch <= 'z')
+
+	while(ch <= 'z')
 	{
 	putchar(ch);
 	ch++;
