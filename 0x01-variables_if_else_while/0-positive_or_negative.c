@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
-*Main- Entry point
+/**
+*main- Entry point
 *created Variable n
 *Descripton: check if n is negative,positive or zero
 *Return: 0
