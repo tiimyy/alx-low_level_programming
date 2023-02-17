@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-	 * main - entry point
-	 * created Variable n.
-	 * Used conditional statements.
-	 * Description:  this is to check is the variable n is a negative, positive number or zero.
-	 * return: 0 
+	 *main - Entry point
+	 *Created Variable n.
+	 *Used conditional statements.
+	 *Description:  this is to check is the variable n is a negative, positive number or zero.
+	 *Return: 0 
 	 */
 int main(void)
 {
