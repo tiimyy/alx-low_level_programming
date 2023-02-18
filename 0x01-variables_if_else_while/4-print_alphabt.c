@@ -4,9 +4,9 @@
  *created variables
  *Return: 0 always
  */
-int main (void)
+int main(void)
 {
-	char x='a';
+	char x = 'a';
 
 	while (x <= 'z')
 	{
