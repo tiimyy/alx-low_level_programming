@@ -1,17 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-*main- Entry point
-*Return: Always 0
-*/
+ *main -Entry point
+ *created variables
+ *Return: 0 always
+ */
 int main(void)
 {
-	int x = 0;
+	char x = 'a';
 
-	while (x < 10)
+	while (x <= 'z')
 	{
-	printf("%d", x);
+		if (x != 'q' && x != 'e')
+		{
+		putchar(x);
+		}
 	x++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
+
 }
