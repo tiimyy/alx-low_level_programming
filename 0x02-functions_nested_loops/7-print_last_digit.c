@@ -2,23 +2,22 @@
 /**
  *print_last_digit- accepts a parameter
  *@n:accepts a parameter
- * Return:last digit of n
+i * Return:last digit of n
  */
 int print_last_digit(int n)
 {
 	int last_digit;
 
-	if (n >= 0)
+	if (n < 0)
 	{
-	last_digit = n % 10;
+	last_digit = ((-1 * n) % 10;
 	_putchar('0' + last_digit);
 	return (last_digit);
 	}
-	else if (n < 0)
+	else
 	{
-	last_digit = ((-1 * n) % 10);
+	last_digit = (n % 10);
 	_putchar('0' + last_digit);
 	return (last_digit);
 	}
-
 }
