@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  *print_last_digit- accepts a parameter
  *@n:accepts a parameter
