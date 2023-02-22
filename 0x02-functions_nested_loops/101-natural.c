@@ -7,15 +7,27 @@
 void sum(void)
 {
 	int num = 1024;
-	int sum = 0;
+	int sum3 = 0;
+	int sum5 = 0;
+	int sum15 = 0;
+	int sum;
 
 	for (num = 0; num < 1024; num++)
 	{
-		while ((num % 3 == 0) || (num % 5 == 0))
+		if (num % 3)
 		{
-			sum = sum + 1;
+			sum3 = sum3 + num;
+		}
+		if (num % 5)
+		{
+			sum5 = sum5 + num;
+		}
+		if (num % 15 == 0)
+		{
+			sum15 = sum15 + num;
 		}
 	}
+	sum = sum3 + sum5 - sum 15;
 	printf("%d\n", sum);
 }
 /**
