@@ -11,7 +11,7 @@ void sum(void)
 
 	for (num = 0; num < 1024; num++)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
+		while ((num % 3 == 0) || (num % 5 == 0))
 		{
 			sum = sum + 1;
 		}
