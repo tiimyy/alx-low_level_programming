@@ -3,10 +3,10 @@
   *add- adds two integers
   *@a: first integer
   *@b: second integer
-  *return: a value
+  *Return: a value
   */
-int add(int i, int j)
+int add(int a, int b)
 {
-	return (i + j);
+	return (a + b);
 }
 
