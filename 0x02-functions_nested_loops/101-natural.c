@@ -27,7 +27,7 @@ void sum(void)
 			sum15 = sum15 + num;
 		}
 	}
-	sum = sum3 + sum5 - sum 15;
+	sum = sum3 + sum5 - sum15;
 	printf("%d\n", sum);
 }
 /**
