@@ -6,7 +6,7 @@
   */
 void sum(void)
 {
-	int num = 1024;
+	int num;
 	int sum3 = 0;
 	int sum5 = 0;
 	int sum15 = 0;
@@ -14,11 +14,11 @@ void sum(void)
 
 	for (num = 0; num < 1024; num++)
 	{
-		if (num % 3)
+		if (num % 3 == 0)
 		{
 			sum3 = sum3 + num;
 		}
-		if (num % 5)
+		if (num % 5 == 0)
 		{
 			sum5 = sum5 + num;
 		}
