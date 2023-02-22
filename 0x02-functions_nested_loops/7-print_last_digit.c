@@ -1,24 +1,25 @@
-#include "main.h"
+i#include "main.h"
 /**
  *print_last_digit- accepts a parameter
  *@n:accepts a parameter
 i * Return:last digit of n
  */
-int print_last_digit(int n)
+int print_last_digit(int j)
 {
-	int last_digit;
+        int last;
+        int nlast = (j % 10);
 
-	if (n < 0)
-	{
-	last_digit = ((-1 * n) % 10);
-	_putchar(last_digit + '0');
-	return (last_digit);
-	}
-	else
-	{
-	last_digit = (n % 10);
-	_putchar(last_digit + '0');
-	return (last_digit);
-	}
+        if (j < 0)
+        {
+                last = (-1 * nlast);
+                _putchar (last + '0');
+                return (last);
+        }
 
+        else
+        {
+                last = (nlast);
+                _putchar (last + '0');
+                return (last);
+        }
 }
