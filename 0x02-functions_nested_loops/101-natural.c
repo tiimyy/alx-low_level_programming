@@ -9,7 +9,7 @@ void sum(void)
 	int num = 1024;
 	int sum = 0;
 
-	for (i = 0; i < 1024; i++)
+	for (num = 0; num < 1024; num++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
