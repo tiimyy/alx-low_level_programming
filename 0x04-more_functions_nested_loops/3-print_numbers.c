@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   *print_numbers- print form 0-9
   *void
