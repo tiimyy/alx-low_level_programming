@@ -8,7 +8,7 @@ int main(void)
 	int a = 100;
 	int i:
 
-		i=1;
+		i = 1;
 	while (i <= a)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -21,10 +21,10 @@ int main(void)
 		}
 		esle if (i % 5 == 0)
 		{
-			if(i < a)
+			if (i < a)
 			printf("Buzz ");
 			else
-			printf("Buzz")
+			printf("Buzz");
 		}
 		else
 		{
