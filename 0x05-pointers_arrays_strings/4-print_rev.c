@@ -11,7 +11,7 @@ void print_rev(char *s)
 
 	for (l = 0; l >= 0; l++)
 	{
-		if (s[i] == '\0')
+		if (s[l] == '\0')
 			break;
 	}
 	for (i = l; i >= 0; i--)
