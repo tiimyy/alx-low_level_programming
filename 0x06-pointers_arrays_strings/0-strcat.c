@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  *_strcat - concatenates two strings
+  *_strcat concattenates two srtings
   *@dest: destination string
-  *@src: Source string
-  *Return: 0 always;
+  *@src: source string
+  *Return: always 0
   */
 char *_strcat(char *dest, char *src)
 {
@@ -14,12 +14,7 @@ char *_strcat(char *dest, char *src)
 	{}
 	for (j = 0; src[j] != '\0'; j++)
 	{
-		dest[i++] = src[j++];
-	}
-	if (dest[i] == '\0')
-	{
-		dest[i] == '\0';
+		dest[i++] = src[j];
 	}
 	return (dest);
 }
-
