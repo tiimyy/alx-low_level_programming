@@ -1,21 +1,23 @@
 #include "main.h"
 /**
-  *string_toupper- changes to uppercase
+  *string_toupper - changes to uppercase
   *@str: takes in str
-  *Return: str
+  *Return: 0 always
   */
 char *string_toupper(char *str)
 {
 	int i;
 	int j;
 	int lenght;
-        
+
 	j = 0;
 	while (str[j] != '\0')
 	{
 		j++;
 	}
+
 	lenght = j;
+
 	for (i = 0; i < lenght; i++)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
