@@ -2,17 +2,18 @@
 #include <string.h>
 
 /**
- * *_strchr - locates a character in a string
- * @s: string to be scanned
- * @c: character to be searched in s
+ * *_memcpy - copies memory area
+ * @dest: pointer to destination array
+ * @src: pointer to source array
+ * @n:number of bytes to be copied
  * Return: Always 0
  */
 
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *loc;
+	char *copied;
 
-	loc = strchr(s, c);
+	copied = memcpy(dest, src, n);
 
-	return (loc);
+	return (copied);
 }
