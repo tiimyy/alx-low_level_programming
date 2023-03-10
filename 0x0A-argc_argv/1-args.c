@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *main - main function
-  *argc : number of paramter passed
-  *argv: parameter from command line
-  *return : 0 always
+  *main- main function
+  *@argc: number of paramter passed
+  *@argv: parameter from command line
+  *Return: 0 always
   */
 int main(int argc, char *argv[])
 {
