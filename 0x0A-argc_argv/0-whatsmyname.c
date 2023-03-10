@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
   *main- prints name of file
-  *@arc: 
-  *@argv
+  *@argc: parameter
+  *@argv: parameter
   *Return: 0 always;
   */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s",argv[0]);
+	argc = argc;
+	printf("%s\n", *argv);
 	return (0);
 }
