@@ -1,21 +1,11 @@
 #include "main.h"
-/**
-  *_strncat - concates and uses n bytes fform src
-  *@dest: destination string
-  *@src: source string
-  *@n: recieves number for src
-  *Return: Astring
-  */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len = strlen(dest);
-	int i;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
-	{
-		dest[dest_len + i] = src[i];
-	}
-	dest[dest_len + i] = '\0';
-
-	return (dest);
+    return strncat(dest, src, n);
 }
+
