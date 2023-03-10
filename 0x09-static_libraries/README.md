@@ -1,2 +1,1 @@
-
-omooo
+static librabry
