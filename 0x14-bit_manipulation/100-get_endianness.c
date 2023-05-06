@@ -8,8 +8,8 @@ int get_endiannes(void)
 	unsigned int a;
 	char *c;
 
-	a=1;
-	c=(char *) &a;
+	a = 1;
+	c = (char *) &a;
 
 	return ((int)*c);
 }
