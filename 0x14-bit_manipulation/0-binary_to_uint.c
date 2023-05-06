@@ -2,18 +2,18 @@
 /**
  *binary_to_uint- A functions that changes binary number to an unsigned int
  *@b: the argument the functions reviceves that holds the expected
-    * value to be converted.
-  *Return:The converted number or 0
-  */
+ *Return:The converted number or 0
+ */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int init;
-	int lenght, base;
+	int lenght;
+	int base;
 
 	if (!b)
-	{
+
 		return (0);
-	}
+
 	init = 0;
 	for (lenght = 0; b[lenght] != '\0'; lenght++)
 		;
