@@ -12,20 +12,20 @@ ssize_t read_textfile(const char *fn, size_t letter)
 	char *buff;
 
 	if (!fn)
-		return(0);
+		return (0);
 
 	fd = open(fn, O_RDONLY);
 
 	if (fd == -1)
-		return(0);
+		return (0);
 	buff = malloc(sizeof(char) * (letter));
 	if (!buff)
 		return (0);
 
-	nread = read(fd, buff,letter);
+	nread = read(fd, buff, letter);
 	nwrite = write(STDOUT_FILENO, buff, nread);
 
-	close (fd);
+	close(fd);
 
 	free(buff);
 
